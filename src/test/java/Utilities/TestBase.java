@@ -13,7 +13,7 @@ import java.time.Duration;
 
 public abstract class TestBase {
 
-    protected WebDriver driver;
+    public WebDriver driver;
 
     @BeforeMethod
     public void setUp() {

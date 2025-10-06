@@ -15,7 +15,7 @@ public class C05_SwagLabsTimeOut extends TestBase {
     User must log in in 10 seconds
      */
 
-    @Test(timeOut = 30000)
+    @Test(timeOut = 30000, groups = "SmokeTest")
     void loginTest() {
 
         driver.get("https://www.saucedemo.com/v1/index.html");
