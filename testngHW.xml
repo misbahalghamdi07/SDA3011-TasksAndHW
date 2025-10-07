@@ -1,16 +1,17 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="Ass06AmazonSearchTestwithParameters">
-<test name="All Test Suite">
+<suite name="Ass06AmazonSearchTestwithParameters2">
+
+    <test name= "AmazonSearch 1">
     <parameter name="keyword" value="Java"/>
     <classes>
-        <class name="com.SDA.mentoring.HW.Ass06AmazonSearchTestwithParameters"></class>
+        <class name="com.SDA.mentoring.HW.Ass06AmazonSearchTestwithParameters2"></class>
     </classes>
 </test>
 
-    <test name="SearchSeleniumTest">
+    <test  name="AmazonSearch 2">
         <parameter name="keyword" value="Selenium"/>
         <classes>
-            <class name="com.SDA.mentoring.HW.Ass06AmazonSearchTestwithParameters"></class>
+            <class name="com.SDA.mentoring.HW.Ass06AmazonSearchTestwithParameters2"></class>
         </classes>
     </test>
 
